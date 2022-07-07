@@ -3,8 +3,13 @@ public class TestClass1 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello..");
+		printWish("Hello","Sachin");
 
+	}
+	
+	public static void printWish(String wish, String name) {
+		System.out.println(wish + " " + name);
+		
 	}
 
 }
